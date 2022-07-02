@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 /**
  * main - entry of program
  * Return: alwasy 0 success
@@ -12,5 +13,5 @@ int main(void)
 		printf("%d",num);
 	}
 	printf("\n");
-	Return(0);
+	return(0);
 }
