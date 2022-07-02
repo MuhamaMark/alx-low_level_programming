@@ -15,5 +15,5 @@ int main(void)
 		lo = lo + 1;
 	}
 	putchar('\n');
-	exit(EXIT_SUCCESS)
+	exit(EXIT_SUCCESS);
 }
