@@ -12,6 +12,6 @@
 	{
 		putchar(ch);
 	}
-	Return(0);
+	exit(EXIT_SUCCESS);
  } 
  
