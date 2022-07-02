@@ -14,6 +14,6 @@ int main(void)
 		putchar(c);
 		c = c + 1;
 	}
-	putachar('\n');
+	putchar('\n');
 	exit(EXIT_SUCCESS);
 }
