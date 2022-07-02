@@ -4,7 +4,7 @@
  * main -Entry point
  * Return: Always 0 (success)
  */
- void main()
+ int main(void)
  {
  	char ch;
 
@@ -12,6 +12,5 @@
 	{
 		putchar(ch);
 	}
-	Return(0);
  } 
  
