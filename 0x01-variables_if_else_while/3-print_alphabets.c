@@ -13,10 +13,12 @@ int main(void)
 	while (lo <= 'z')
 	{
 		putchar(lo);
+		lo = lo + 1;
 	}
 	while (hi <= 'Z')
 	{
 		putchar(hi);
+		hi = hi + 1;
 	}
 	putchar('\n');
 	exit(EXIT_SUCCESS);
