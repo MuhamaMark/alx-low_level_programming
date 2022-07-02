@@ -6,11 +6,10 @@
  */
 void main
 {
-	int m;
+	char ch;
 
-	
-	putchar(for m = ‘a’; m <= ‘z’; m++)
-		putchar(m);				  
+	for(ch = ‘a’; ch <= ‘z’; ch++)
+		putchar(ch);				  
 		putchar (‘\n’);
 	Return (0);
 }
