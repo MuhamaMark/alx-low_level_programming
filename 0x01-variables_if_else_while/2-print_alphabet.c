@@ -4,14 +4,14 @@
  * main -Entry point
  * Return: Always 0 (success)
  */
- int main()
- {
- 	char ch;
+int main()
+{
+	char ch;
 
 	for(ch='a';ch<='z';ch++)
 	{
 		putchar(ch);
 	}
-	exit (EXIT_SUCCESS);
- } 
+	exit(EXIT_SUCCESS);
+}
  
