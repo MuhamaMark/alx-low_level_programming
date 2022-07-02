@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 /**
  * Main - Entry point
  * EXIT- is successful for this program
