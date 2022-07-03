@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar((no % 10) + '0');
 		no = no + 1;
-		if (no == 9)
+		if (no == 10)
 			continue;
 		putchar(',');
 		putchar(' ');
