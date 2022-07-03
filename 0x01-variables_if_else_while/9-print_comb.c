@@ -10,8 +10,7 @@ int main(void)
 
 	while (no <= 9)
 	{
-		putchar((no % 10) + '0');
-		putchar(', ');
+		putchar('(no % 10) + '0', ');
 		no = no + 1;
 	}
 	putchar('\n');
