@@ -17,11 +17,11 @@ int main(void)
 				{
 					if (((c + d) > (a + b) && c >= a) || a < c)
 					{
-						putcahr(c);
-						putchar(i);
+						putchar(a);
+						putchar(b);
 						putchar(' ');
-						putchar(k);
-						putchar(j);
+						putchar(c);
+						putchar(d);
 
 						if (a + b + c + d == 227 && a == 57)
 						{
