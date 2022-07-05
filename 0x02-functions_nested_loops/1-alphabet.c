@@ -2,8 +2,9 @@
 /**
  * main - entry point of the program
  * print_alphabet function - print lowercase alphabet
+ * Function print_alphabet - printing lowercase alphabet
  */
-void print_alphabet(void)//print_alphabet function - print lowercase alphabet
+void print_alphabet(void)
 {
 	int lo = 'a';
 
