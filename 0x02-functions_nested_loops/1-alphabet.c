@@ -3,7 +3,7 @@
  * main - entry point of the program
  * print_alphabet function - print lowercase alphabet
  */
-void print_alphabet(void)
+void print_alphabet(void)//print_alphabet function - print lowercase alphabet
 {
 	int lo = 'a';
 
