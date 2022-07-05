@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * main - entry point of the program
- * Result: alwasy 0 success
- * print_alphabet -> print lower case alphabet letters
+ * print_alphabet -> print lowercase alphabet
  */
 void print_alphabet(void)
 {
