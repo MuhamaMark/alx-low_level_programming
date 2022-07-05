@@ -1,8 +1,7 @@
 #include"main.h"
-#include<unistd.h>
 /**
- * main - Entry point
- * Return: Always 0
+ * main - Entry point of program
+ * Return: Always 0 success
  */
 int main(void)
 {
@@ -14,7 +13,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n');
-	
+	_putchar('\n');	
 	return (0);
 }
