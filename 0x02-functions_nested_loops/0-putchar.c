@@ -4,10 +4,6 @@
  * main - Entry point
  * Return: Always 0
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
 int main(void)
 {
 	_putchar('-');
@@ -18,5 +14,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
+	
 	return (0);
 }
