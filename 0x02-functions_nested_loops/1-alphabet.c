@@ -2,7 +2,7 @@
 /**
  * main - entry point of the program
  * Result: alwasy 0 success
- * print lower case alphabet using headercreated
+ * print_alphabet -> print lower case alphabet letters
  */
 void print_alphabet(void)
 {
