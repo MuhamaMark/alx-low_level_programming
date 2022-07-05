@@ -4,7 +4,7 @@
  * Result: alwasy 0 success
  * print lower case alphabet using headercreated
  */
-int main(void)
+void print_alphabet(void)
 {
 	char lo = 'a';
 	
