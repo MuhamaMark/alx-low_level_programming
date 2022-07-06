@@ -12,14 +12,14 @@ void times_table(void)
 		for (mult = 0; mult < 10; mult++)
 		{
 			prod = no * mult;
-			if ( multi == 0)
+			if ( mult == 0)
 				_putchar(prod + '0');
 			if (mult != 0 && prod < 10)
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(prodn+ '0');
+				_putchar(prod + '0');
 			}else if (prod >= 10)
 			{
 				_putchar(',');
