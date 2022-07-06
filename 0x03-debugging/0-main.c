@@ -1,6 +1,5 @@
 #include"main.h"
 #include<stdio.h>
-#include<time.h>
 #include<stdlib.h>
 /**
  * main - tests function that prints intger is positive or negative
