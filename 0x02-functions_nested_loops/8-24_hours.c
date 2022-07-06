@@ -3,7 +3,7 @@
  * jack_bauer - Prints every minute of the day of 
  * jack Bauer's life, starting from 00:00 to 23:59.
  */
-vooid jack_bauer(void)
+void jack_bauer(void)
 {
 	int hr, mins;
 
