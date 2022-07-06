@@ -3,12 +3,9 @@
  * add -> adds two number
  * @x : param1
  * @y : param2
- * Return: z
+ * Return: x + y
  */
 int add(int x, int y)
 {
-	int x, y, z;
-
-	z = x + y;
-	return (z);
+	return(x + y);
 }
