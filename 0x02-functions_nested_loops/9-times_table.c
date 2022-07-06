@@ -4,7 +4,7 @@
  * starting from 0.
  * @n: the value of times table to be printed
  */
-void times_table(void)
+void times_table(int n)
 {
 	int no, mult, prod;
 
@@ -12,7 +12,7 @@ void times_table(void)
 	{
 		for (no = 0; no <= n; no++)
 		{
-			_putchar('0);
+			_putchar('0');
 
 			for (mult = 1; mult <= n; mult++)
 			{
