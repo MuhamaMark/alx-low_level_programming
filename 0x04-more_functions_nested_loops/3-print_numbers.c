@@ -8,7 +8,7 @@ void print_numbers(void)
 
 	while (num <= 9)
 	{
-		-putchar(num + '0');
+		-putchar((num % 10) + '0');
 		num = num + 1;
 	}
 	_putchar('\n');
