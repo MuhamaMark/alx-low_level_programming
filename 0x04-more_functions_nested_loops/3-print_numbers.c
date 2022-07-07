@@ -2,6 +2,7 @@
 #include<stdio.h>
 /**
  * print_numbers - Prints the numbers from 0-9.
+ * Return: (0) always success
  */
 void print_numbers(void)
 {
@@ -12,4 +13,5 @@ void print_numbers(void)
 		_putchar((num % 10) + '0');
 	}
 	_putchar('\n');
+	return (0);
 }
