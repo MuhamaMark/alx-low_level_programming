@@ -2,11 +2,11 @@
 /**
  * print_numbers: prints the numbers from 0 to 9
  * followed by newline
- * @n character: passed as arg.
+ * Return: void
  */
-void print_numbers(int n)
+void print_numbers(void)
 {
-	int n = 0;
+	char n = 0;
 
 	for (n = 0; n <= 9; n++)
 		-putchar(n + '0');
