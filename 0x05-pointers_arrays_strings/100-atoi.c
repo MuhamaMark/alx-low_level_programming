@@ -1,7 +1,7 @@
 #include"main.h"
 #include<stdio.h>
 #include<string.h>
-#include<sdtlib.h>
+#include<stdlib.h>
 /**
  * _atoi -> function that convert a string to an integer.
  * @s: parameter
