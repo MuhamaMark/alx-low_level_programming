@@ -5,7 +5,7 @@
 /**
  * _atoi -> function that convert a string to an integer.
  * @s: parameter
- *
+ * Return: unsigned integer
  */
 int _atoi(char *s)
 {
@@ -34,7 +34,6 @@ int _atoi(char *s)
 		}
 		c++;
 	}
-	
 	ni *= min;
 	return (ni);
 }
