@@ -2,7 +2,8 @@
 #include<stdio.h>
 /**
  * swap_int - function to swap numbers
- * @a@b: being the args
+ * @a: parameter 1
+ * @b: parameter 2
  *
  * Return: nothing
  */
