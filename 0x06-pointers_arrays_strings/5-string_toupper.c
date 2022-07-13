@@ -5,12 +5,10 @@
 /**
  * string_toupper -> function that changes all lowercase letters to upper
  * Return: 0 alwasy success
- * @"": param1
+ * @p: param1
  */
-char *string_toupper(char *)
+char *string_toupper(char *p);
 {
-	char ch;
-
-	toupper(ch);
-	return (0);
+	toupper(p);
+	return (p);
 }
