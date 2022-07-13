@@ -6,6 +6,8 @@
  * _strcat -> function tp concatnate two strings
  * @dest: parameter for destination
  * @src: parameter for source
+ *
+ * Return: string in dest param
  */
 char *_strcat(char *dest, char *src)
 {
@@ -16,8 +18,7 @@ char *_strcat(char *dest, char *src)
 
 	for (len = 0; src[len]; len++)
 	{
-		dest[i] = src[len];
-		i += 1;
+		dest[i++] = src[len];
 	}
 	return (dest);
 }
