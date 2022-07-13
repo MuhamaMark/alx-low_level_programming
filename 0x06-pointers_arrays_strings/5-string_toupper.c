@@ -5,19 +5,19 @@
 /**
  * string_toupper -> function that changes all lowercase letters to upper
  * Return: 0 alwasy success
- * @n: param1
+ * @p: param1
  */
-char *string_toupper(char *n);
+char *string_toupper(char *p);
 {
-	int m = 0;
+	int a = 0;
 
-	while (n[m])
+	while (p[a])
 	{
-		if (n[m] >= 97 && n[m] <= 122)
+		if (p[a] >= 97 && p[a] <= 122)
 		{
-			n[m] -= 32;
+			p[a] -= 32;
 		}
-		m++
+		a++;
 	}
-	return (n);
+	return (p);
 }
