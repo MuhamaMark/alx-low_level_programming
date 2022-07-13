@@ -1,10 +1,10 @@
-#include "maing.h"
+#include "main.h"
 #include<ctype.h>
 #include<string.h>
 #include<stdio.h>
 /**
  * string_toupper -> function that changes all lowercase letters to upper
- * Return: 0 alwasy success
+ * Return: string
  * @p: param1
  */
 char *string_toupper(char *p);
@@ -14,9 +14,7 @@ char *string_toupper(char *p);
 	while (p[a])
 	{
 		if (p[a] >= 97 && p[a] <= 122)
-		{
-			p[a] -= 32;
-		}
+			p[a] = p[a] - 32;
 		a++;
 	}
 	return (p);
