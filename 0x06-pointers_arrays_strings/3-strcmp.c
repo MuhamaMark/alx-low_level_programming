@@ -37,16 +37,14 @@ int _strcmp(char *s1, char *s2)
 		if (s1[c] == s2[c])
 		{
 			c++;
-			continie;
+			continue;
 		}
 		else
 		{
 			r = s1[c] == s2[c];
 			break;
 		}
-
 		c++;
 	}
-
 	return (r);
 }
