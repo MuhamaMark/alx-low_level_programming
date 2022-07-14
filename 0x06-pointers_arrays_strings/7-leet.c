@@ -1,4 +1,3 @@
-
 #include "main.h"
 #include<string.h>
 #include<stdio.h>
@@ -23,12 +22,9 @@ char *leet(char *s)
 			{
 				s[a] = n[b];
 			}
-
 			b++;
 		}
-		
 		a++;
 	}
-
 	return (s);
 }
