@@ -9,7 +9,7 @@
  */
 char *rot13(char *s)
 {
-	int a = o;
+	int a = 0;
 
 	while (s[a])
 	{
