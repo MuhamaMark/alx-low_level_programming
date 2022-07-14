@@ -2,12 +2,12 @@
 #include<stdio.h>
 #include<string.h>
 /**
+ * rot13 -> function that encodes a string using rot13.
+ * @s: param
  *
- *
- *
- *
+ * Return: string
  */
-char *rot13(char *p)
+char *rot13(char *s)
 {
 	int a = o;
 
