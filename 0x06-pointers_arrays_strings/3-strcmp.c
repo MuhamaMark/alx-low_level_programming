@@ -6,12 +6,47 @@
  * @s1: param
  * @s2: param
  *
- * Return: 0, 1
+ * Return: string
  */
 int _strcmp(char *s1, char *s2)
 {
-	int res;
+	int  a = 0, b = 0, c = 0, r = 0, lim;
 
-	res = strcmp(s1, s2);
-	result (res);
+	while (s1[a])
+	{
+		a++;
+	}
+
+	while (s2[b])
+	{
+		b++;
+	}
+
+	if (a <= b)
+	{
+		lim = a;
+	}
+
+	else
+	{
+		lim = b;
+	}
+	
+	while (c <= lim)
+	{
+		if (s1[c] == s2[c])
+		{
+			c++;
+			continie;
+		}
+		else
+		{
+			r = s1[c] == s2[c];
+			break;
+		}
+
+		c++;
+	}
+
+	return (r);
 }
