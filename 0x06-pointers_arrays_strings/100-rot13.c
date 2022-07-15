@@ -9,21 +9,22 @@
  */
 char *rot13(char *s)
 {
-	int a = 0;
+	int i, j;
 
-	while (s[a])
+	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		while ((s[a] >= 'a' && s[a] <= 'z) || (s[a] >= 'A' && s[a] <= 'z'))
+		for (j = 0; a[j] != '\0'; j++)
 		{
-			if ((s[a] > 'm' && s[a] <= 'z') || (s[a] > 'M' && s[a] <= 'Z'))
+			if (s[i] == a[j])
 			{
-				s[a] -= 13;
+				s[i] = b[j];
 				break;
 			}
-			s[a] += 13;
-			break;
 		}
-		a++;
 	}
+
 	return (s);
 }
