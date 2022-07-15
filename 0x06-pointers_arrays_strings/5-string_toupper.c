@@ -9,7 +9,7 @@
  */
 char *string_toupper(char *x)
 {
-	int i = 0;
+	int i;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
