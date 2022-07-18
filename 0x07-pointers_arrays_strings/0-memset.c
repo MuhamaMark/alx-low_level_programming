@@ -9,9 +9,9 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int b;
+	unsigned int m;
 
-	for ( b = 0; b < n; b++)
-		s[b] = b;
+	for (m = 0; m < n; m++)
+		s[m] = b;
 	return (s);
 }
