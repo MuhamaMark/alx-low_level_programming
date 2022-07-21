@@ -8,9 +8,5 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (_sqrt_recursion(n, 0.5) <= 0)
-	{
-		return (-1);
-	}
 	return (_sqrt_recursion(n, 0.5));
 }
