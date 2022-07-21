@@ -8,9 +8,9 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (pow(n, 0.5) <= 0 || (pow(n, 0.5) % 10) != 0)
+	if (pow(n, 0.5) <= 0)
 	{
 		return (-1);
 	}
-	return (pow(n, 0.5);
+	return (pow(n, 0.5));
 }
