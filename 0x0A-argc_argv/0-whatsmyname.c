@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main -> a program that prints its name,
+ * main -> a program that prints its name
  * @argc: argc param
  * argv: argc param
  * Return: 0 for success 1 for failure
